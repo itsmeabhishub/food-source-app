@@ -1,15 +1,12 @@
-
-
-import './App.css'
-import RoutingPiolt from './routing'
+import "./App.css";
+import RoutingPiolt from "./routing";
 
 function App() {
-
   return (
-    <div className="mainContainer">
+    <div className="main-container">
       <RoutingPiolt />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
