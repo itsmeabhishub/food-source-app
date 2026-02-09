@@ -1,0 +1,34 @@
+.header-main-container{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: aqua;
+    background-color: blueviolet;
+    padding: 0 5px;
+}
+.left-side-header-menu{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.header-title{
+    font-size: 27px;
+    padding: 10px;
+    text-align: center;
+    font-family: ui-monospace;
+    font-style: italic;
+    font-weight: 800;
+}
+.right-side-header-menu {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-main-container .ant-menu{
+    background: transparent !important;
+    border-bottom: none;
+    width: 290px;
+    font-size: 16px;
+}

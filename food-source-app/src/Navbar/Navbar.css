@@ -1,0 +1,7 @@
+/* .navbar-main-container{
+    width: 100%;
+} */
+
+.navbar-main-container .ant-menu{
+    background: transparent;
+}
